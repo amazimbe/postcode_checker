@@ -14,6 +14,10 @@ Running the application at http://localhost:4567
 
 `rackup -s thin -p 4567`
 
+## Code linting
+ 
+`bundle exec rubocop`
+
 ## Running Test Suite
 
 Run all tests:
