@@ -23,3 +23,9 @@ Running the application at http://localhost:4567
 Run all tests:
 
 `bundle exec rspec`
+
+## TODO
+
+Instead of dotenv use the figaro gem so that we can specify
+whitelisted LSOAs as a list. Currently, the list has been 
+hardcoded.

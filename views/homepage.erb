@@ -1,0 +1,8 @@
+<% if @msg %>
+  <p><%= @msg %></p>
+<% end %>
+
+<form id="postcode_form" action="/">
+  <input type="text" name="postcode" placeholder="Enter a valid UK postcode" required>
+  <input name="submit" type="submit">
+</form>

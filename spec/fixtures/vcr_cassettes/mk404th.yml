@@ -1,0 +1,87 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://postcodes.io/postcodes/MK40%204TH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0
+      Date:
+      - Mon, 08 Jun 2020 13:46:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '783'
+      Connection:
+      - keep-alive
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"30f-jMZrIERzIn1XGneH07uqlA/iC4w"
+    body:
+      encoding: UTF-8
+      string: '{"status":200,"result":{"postcode":"MK40 4TH","quality":1,"eastings":503224,"northings":250545,"country":"England","nhs_ha":"East
+        of England","longitude":-0.492951,"latitude":52.143574,"european_electoral_region":"Eastern","primary_care_trust":"Bedfordshire","region":"East
+        of England","lsoa":"Bedford 013A","msoa":"Bedford 013","incode":"4TH","outcode":"MK40","parliamentary_constituency":"Bedford","admin_district":"Bedford","parish":"Bedford,
+        unparished area","admin_county":null,"admin_ward":"Queens Park","ced":null,"ccg":"NHS
+        Bedfordshire","nuts":"Bedford","codes":{"admin_district":"E06000055","admin_county":"E99999999","admin_ward":"E05008772","parish":"E43000239","parliamentary_constituency":"E14000552","ccg":"E38000010","ccg_id":"06F","ced":"E99999999","nuts":"UKH24"}}}'
+  recorded_at: Mon, 08 Jun 2020 13:46:28 GMT
+- request:
+    method: get
+    uri: http://postcodes.io/postcodes/MK40%204TH
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v1.0.1
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.14.0
+      Date:
+      - Mon, 08 Jun 2020 13:46:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '783'
+      Connection:
+      - keep-alive
+      X-Gnu:
+      - Michael J Blanchard
+      Access-Control-Allow-Origin:
+      - "*"
+      Etag:
+      - W/"30f-jMZrIERzIn1XGneH07uqlA/iC4w"
+    body:
+      encoding: UTF-8
+      string: '{"status":200,"result":{"postcode":"MK40 4TH","quality":1,"eastings":503224,"northings":250545,"country":"England","nhs_ha":"East
+        of England","longitude":-0.492951,"latitude":52.143574,"european_electoral_region":"Eastern","primary_care_trust":"Bedfordshire","region":"East
+        of England","lsoa":"Bedford 013A","msoa":"Bedford 013","incode":"4TH","outcode":"MK40","parliamentary_constituency":"Bedford","admin_district":"Bedford","parish":"Bedford,
+        unparished area","admin_county":null,"admin_ward":"Queens Park","ced":null,"ccg":"NHS
+        Bedfordshire","nuts":"Bedford","codes":{"admin_district":"E06000055","admin_county":"E99999999","admin_ward":"E05008772","parish":"E43000239","parliamentary_constituency":"E14000552","ccg":"E38000010","ccg_id":"06F","ced":"E99999999","nuts":"UKH24"}}}'
+  recorded_at: Mon, 08 Jun 2020 13:46:29 GMT
+recorded_with: VCR 6.0.0
